@@ -1,4 +1,4 @@
-# Local MISRA C Code Reviewer 🛡️
+# Local MISRA C Code Reviewer 
 
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
 ![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux%20%7C%20Mac-lightgrey)
@@ -6,7 +6,7 @@
 
 A privacy-first code review tool that utilizes Local Large Language Models (LLMs) via **LM Studio** to audit C code for **MISRA C:2012 compliance**, **security vulnerabilities**, and **coding standards**.
 
-## 🚀 Why This Project?
+## 🚀Why This Project?
 
 In embedded systems development, proprietary source code cannot be sent to public cloud APIs (like ChatGPT or Claude) due to IP protection and privacy risks.
 
@@ -15,7 +15,7 @@ This tool solves that problem by:
 2.  **Automating Compliance:** Checking against MISRA guidelines automatically.
 3.  **Zero Data Leakage:** No code ever leaves the local network.
 
-## ✨ Features
+##  Features
 
 * **Local Inference:** Uses the OpenAI API standard to talk to local models running on port `1234`.
 * **Structured Reporting:** Automatically generates a `_REPORT.md` file for every analyzed source file.
@@ -65,4 +65,5 @@ This tool solves that problem by:
 Run the script pointing to any C source file:
 
 ```bash
+
 python reviewer.py path/to/your_file.c
